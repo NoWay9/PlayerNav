@@ -11,16 +11,17 @@ div#player {
   }
 
 
-  .fire{
+  #fire{
       width: 4px;
       height: 4px;
       background:  orangered;
       border:1px solid maroon;
       border-radius: 1px;
-      position: absolute;
+      /*position: absolute;
       top:50px;
-      left: 50px;
-      /*display: none;*/
-      overflow: hidden;
+      left: 50px;*/
+      position: inherit;
+      display: none;
+     /* overflow: hidden;*/
   }
 

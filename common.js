@@ -27,21 +27,26 @@ else if(e.keyCode == KEYCODE_BOTTOM){
 }
      
  if(e.keyCode == KEYCODE_SPACE){ 
-   /* fire.style.display = 'initial';
-    fire.style.left = (parseInt(el.style.left) + 200) + 'px';*/
-   /* var fps = 50;  
+  fire.style.display = 'initial';
+ 
+ setInterval(function(){
+    fire.style.left = (parseInt(el.style.left) + 200) + 'px';
+    console.log(fire.style.left);
+  },1);
+ 
+  /*fire.style.left = (parseInt(el.style.left) + 200) + 'px';
+    var fps = 50;  
     var animation = setInterval(function(){
     var long;
     long += 100;
-    bullet.style.left = (parseInt(el.style.left) + long) + 'px';
+    fire.style.left = (parseInt(el.style.left) + long) + 'px';
     },1000/fps);*/
     
-     var bullet = document.createElement('div');
+    /* var bullet = document.createElement('div');
     bullet.classList.add('fire');
      document.body.appendChild(bullet);
-    /* bullet.style.left = parseInt(el.style.left);*/
-    bullet.style.left = (parseInt(bullet.style.left) + 200) + 'px';
-    bullet.style.top = (parseInt(el.style.top)) + 'px'; 
+    bullet.style.left = (parseInt(bullet.style.left)) + 'px';
+    bullet.style.top = (parseInt(el.style.top)) + 'px'; */
   
    
  
@@ -50,9 +55,7 @@ else if(e.keyCode == KEYCODE_BOTTOM){
 }
 
 
-function fire(){
-    
-}
+
 
 
 
