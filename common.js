@@ -32,7 +32,7 @@ else if(e.keyCode == KEYCODE_BOTTOM){
  setInterval(function(){
     fire.style.left = (parseInt(el.style.left) + 200) + 'px';
     console.log(fire.style.left);
-  },1);
+  },1000);
  
   /*fire.style.left = (parseInt(el.style.left) + 200) + 'px';
     var fps = 50;  
