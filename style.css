@@ -2,9 +2,9 @@ div#player {
     width: 10px;
     height: 10px;
     background: red;
-    
+
     transition: all 0.3s ease-out 0s;
-    
+
     position: absolute;
     top: 0px;
     left: 0px;
@@ -17,11 +17,12 @@ div#player {
       background:  orangered;
       border:1px solid maroon;
       border-radius: 1px;
-      /*position: absolute;
-      top:50px;
-      left: 50px;*/
       position: inherit;
       display: none;
-     /* overflow: hidden;*/
+  }
+
+
+  body{
+    overflow: hidden;
   }
 
